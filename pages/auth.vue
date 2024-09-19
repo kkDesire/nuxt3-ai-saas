@@ -2,10 +2,10 @@
 import { Auth } from '@nuxtbase/auth-ui-vue'
 import { ThemeSupa } from '@supabase/auth-ui-shared'
 
-definePageMeta({
-  layouts: 'home',
-})
 const supabaseClient = useSupabaseClient()
+definePageMeta({
+  layout: 'home',
+})
 </script>
 
 <template>
